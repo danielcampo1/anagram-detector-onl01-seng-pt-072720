@@ -14,9 +14,8 @@ class Anagram
     matches = []
     
     words_array.each do |word|
-      if word_sorted = word.split("").sort 
+      if word_sorted == word.split("").sort 
         matches << word
-        matches
     end
     
     end
