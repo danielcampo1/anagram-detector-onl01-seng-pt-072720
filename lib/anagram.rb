@@ -16,7 +16,7 @@ end
     words_array.each do |word|
       if word_sorted = word.split("").sort 
         matches << word
-    
+    end
   end
     matches
   end
