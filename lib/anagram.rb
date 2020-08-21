@@ -18,8 +18,7 @@ end
         matches << word
     end
   end
-    matches
   end
-end
-  
+   matches
+   
 end
