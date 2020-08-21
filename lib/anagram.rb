@@ -17,8 +17,7 @@ end
 
       test.collect do |t|
 # binding.pry
-      if t
-        binding.pry == word_sorted
+      if t == word_sorted
       matches << words_array[test.find_index(t)]
       end
     end
