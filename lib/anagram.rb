@@ -6,7 +6,7 @@ class Anagram
   
  def  initialize(match)
   @word = match
-end
+  end
   
   def match(words_array)
 
@@ -16,9 +16,11 @@ end
     words_array.each do |word|
       if word_sorted = word.split("").sort 
         matches << word
+        matches
     end
-  end
-  end
-   matches
-   
+    
+    end
+    matches
+    end
+
 end
