@@ -12,6 +12,11 @@ end
 
     word_sorted = @word.split("").sort
     matches = []
+    
+    words_array.each do |word|
+      if word_sorted = word.split("").sort 
+        matches << word
+    
     test = words_array.collect { |w| w.split("") }
     test = test.collect { |l| l.sort }
 
